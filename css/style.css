@@ -59,10 +59,11 @@ body{
 .coin-two{
     position: absolute;
     top: 50%;
-    right:45%;
+    right:35%;
     max-width: 53px;
     height: auto;
     width: 10%;
+    z-index: 1;
 }
 .paper-one{
     position: absolute;
@@ -76,28 +77,31 @@ body{
     position: absolute;
     top: 30%;
     left: 2%;
-    max-width: 322px;
-    width: 38%;
+    max-width: 400px;
+    width: 96%;
+    z-index: 9;
 }
 .herotitleOuterglow{
     position: absolute;
-    top: 28.1%;
-    left: 0.9%;
-    max-width: 343px;
-    width: 39.9%;
+    top: 30%;
+    left: 2%;
+    max-width: 400px;
+    width: 96%;
+    z-index: 9;
 }
 .lensflare{
     position: absolute;
-    top: 22%;
-    left: 10%;
+    top: 27%;
+    left: 13%;
     max-width: 385px;
     height: auto;
     width: 51%;
+    z-index: 999;
 }
 .lensflare1{
     position: absolute;
     top: 40%;
-    left: -10%;
+    left: -13%;
     max-width: 385px;
     height: auto;
     width: 51%;
